@@ -3,4 +3,6 @@
   <Project Path="Orchestrator.Application/Orchestrator.Application.csproj" />
   <Project Path="Orchestrator.Core/Orchestrator.Core.csproj" />
   <Project Path="Orchestrator.Infrastructure/Orchestrator.Infrastructure.csproj" />
+  <Project Path="Orchestrator.IntegrationTests/Orchestrator.IntegrationTests.csproj" />
+  <Project Path="Orchestrator.UnitTests/Orchestrator.UnitTests.csproj" />
 </Solution>

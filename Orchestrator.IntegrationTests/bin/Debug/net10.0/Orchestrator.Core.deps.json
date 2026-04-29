@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Orchestrator.Core/1.0.0": {
+        "runtime": {
+          "Orchestrator.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Orchestrator.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

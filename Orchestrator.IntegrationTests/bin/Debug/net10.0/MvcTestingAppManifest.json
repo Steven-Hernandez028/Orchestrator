@@ -1,0 +1,6 @@
+{
+  "Orchestrator.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\Orchestrator\\Orchestrator.Api",
+  "Orchestrator.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\Orchestrator\\Orchestrator.Application",
+  "Orchestrator.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\Orchestrator\\Orchestrator.Core",
+  "Orchestrator.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "D:\\GitHub\\Orchestrator\\Orchestrator.Infrastructure"
+}

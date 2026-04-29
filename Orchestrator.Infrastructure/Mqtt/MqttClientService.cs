@@ -8,16 +8,13 @@ public class MqttClientService : IHostedService
 {
     private readonly ILogger<MqttClientService> _logger;
     private readonly MqttPublisher _publisher;
-    private readonly MqttTopicRouter _topicRouter;
 
     public MqttClientService(
         ILogger<MqttClientService> logger,
-        MqttPublisher publisher,
-        MqttTopicRouter topicRouter)
+        MqttPublisher publisher)
     {
         _logger = logger;
         _publisher = publisher;
-        _topicRouter = topicRouter;
     }
 
     public Task StartAsync(CancellationToken cancellationToken)

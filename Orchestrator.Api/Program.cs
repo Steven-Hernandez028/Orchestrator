@@ -12,12 +12,22 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 // Database
-builder.Services.AddDbContext<OrchestratorDbContext>(options =>
-    options.UseSqlite("Data Source=orchestrator.db"));
+if (builder.Environment.IsEnvironment("Testing"))
+{
+    builder.Services.AddDbContext<OrchestratorDbContext>(options =>
+        options.UseInMemoryDatabase("InMemoryTest"));
+}
+else
+{
+    builder.Services.AddDbContext<OrchestratorDbContext>(options =>
+        options.UseSqlite("Data Source=orchestrator.db"));
+}
 
 // MQTT
 builder.Services.AddSingleton<MqttPublisher>();
-builder.Services.AddSingleton<MqttTopicRouter>();
+builder.Services.AddScoped<IMqttPublisher>(sp => sp.GetRequiredService<MqttPublisher>());
+builder.Services.AddScoped<MqttTopicRouter>();
+builder.Services.AddScoped<IOrchestrationService, OrchestrationService>();
 builder.Services.AddHostedService<MqttBrokerService>();
 builder.Services.AddHostedService<MqttClientService>();
 

@@ -91,3 +91,4 @@ D:\GitHub\Orchestrator\Orchestrator.Api\obj\Debug\net10.0\refint\Orchestrator.Ap
 D:\GitHub\Orchestrator\Orchestrator.Api\obj\Debug\net10.0\Orchestrator.Api.pdb
 D:\GitHub\Orchestrator\Orchestrator.Api\obj\Debug\net10.0\Orchestrator.Api.genruntimeconfig.cache
 D:\GitHub\Orchestrator\Orchestrator.Api\obj\Debug\net10.0\ref\Orchestrator.Api.dll
+D:\GitHub\Orchestrator\Orchestrator.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
