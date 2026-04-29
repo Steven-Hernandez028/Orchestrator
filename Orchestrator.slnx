@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Orchestrator.Api/Orchestrator.Api.csproj" />
+  <Project Path="Orchestrator.Application/Orchestrator.Application.csproj" />
+  <Project Path="Orchestrator.Core/Orchestrator.Core.csproj" />
+  <Project Path="Orchestrator.Infrastructure/Orchestrator.Infrastructure.csproj" />
+</Solution>

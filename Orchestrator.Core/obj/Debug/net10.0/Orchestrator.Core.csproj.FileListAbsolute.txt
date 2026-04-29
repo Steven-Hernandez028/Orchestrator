@@ -1,0 +1,12 @@
+D:\GitHub\Orchestrator\Orchestrator.Core\bin\Debug\net10.0\Orchestrator.Core.deps.json
+D:\GitHub\Orchestrator\Orchestrator.Core\bin\Debug\net10.0\Orchestrator.Core.dll
+D:\GitHub\Orchestrator\Orchestrator.Core\bin\Debug\net10.0\Orchestrator.Core.pdb
+D:\GitHub\Orchestrator\Orchestrator.Core\obj\Debug\net10.0\Orchestrator.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\Orchestrator\Orchestrator.Core\obj\Debug\net10.0\Orchestrator.Core.AssemblyInfoInputs.cache
+D:\GitHub\Orchestrator\Orchestrator.Core\obj\Debug\net10.0\Orchestrator.Core.AssemblyInfo.cs
+D:\GitHub\Orchestrator\Orchestrator.Core\obj\Debug\net10.0\Orchestrator.Core.csproj.CoreCompileInputs.cache
+D:\GitHub\Orchestrator\Orchestrator.Core\obj\Debug\net10.0\Orchestrator.Core.sourcelink.json
+D:\GitHub\Orchestrator\Orchestrator.Core\obj\Debug\net10.0\Orchestrator.Core.dll
+D:\GitHub\Orchestrator\Orchestrator.Core\obj\Debug\net10.0\refint\Orchestrator.Core.dll
+D:\GitHub\Orchestrator\Orchestrator.Core\obj\Debug\net10.0\Orchestrator.Core.pdb
+D:\GitHub\Orchestrator\Orchestrator.Core\obj\Debug\net10.0\ref\Orchestrator.Core.dll
